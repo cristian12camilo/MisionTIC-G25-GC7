@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "MSVHeoOJSHyBGMN7mrZ3e/POr7X3feBImgloYYfVTNd/ypTf+H1tHl6wyDpZ9xvRCua1l0siOu0Oz5xol0mwUA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DarkSide\\Google Drive\\MisionTIC\\Desarrollo de Sofware\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DarkSide\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\DarkSide\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
