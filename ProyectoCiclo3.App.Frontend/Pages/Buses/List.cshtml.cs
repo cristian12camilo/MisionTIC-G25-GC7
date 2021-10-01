@@ -4,14 +4,28 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using ProyectoCiclo3.App.Persistencia.AppRepositorios; // se esta realizando una importación 
+using ProyectoCiclo3.App.Dominio; // se esta realizando una importación 
+
+// las importaciones se utilizar para poder utilizar los objetos. 
  
-namespace HolaWeb.App.Frontend.Pages
+namespace ProyectoCiclo3.App.Frontend.Pages
 {
     public class ListBusModel : PageModel
     {
-        public void OnGet()
-        {
+       
+        private readonly RepositorioBuses repositorioBuses;
+        public IEnumerable<Buses> Buses {get;set;}
  
-        }
+    public ListBusModel(RepositorioBuses repositorioBuses)
+    {
+        this.repositorioBuses=repositorioBuses;
+     }
+ 
+    public void OnGet()
+    {
+        Buses=repositorioBuses.GetAll();
+    }
     }
 }
+
