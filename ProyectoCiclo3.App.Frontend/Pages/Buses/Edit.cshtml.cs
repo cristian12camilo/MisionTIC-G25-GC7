@@ -12,7 +12,8 @@ namespace ProyectoCiclo3.App.Frontend.Pages
     public class EditBusModel : PageModel
     {
         private readonly RepositorioBuses repositorioBuses;
-        [BindProperty]
+
+        [BindProperty]  // Anotación clave para adicionar ************
         public Buses Bus {get;set;}
  
         public EditBusModel(RepositorioBuses repositorioBuses)

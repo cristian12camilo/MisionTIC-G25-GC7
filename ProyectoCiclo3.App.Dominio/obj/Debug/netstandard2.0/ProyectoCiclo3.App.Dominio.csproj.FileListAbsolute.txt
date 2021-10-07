@@ -6,3 +6,4 @@ C:\Users\DarkSide\Google Drive\MisionTIC\Desarrollo de Sofware\ProyectoCiclo3.Ap
 C:\Users\DarkSide\Google Drive\MisionTIC\Desarrollo de Sofware\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csproj.CoreCompileInputs.cache
 C:\Users\DarkSide\Google Drive\MisionTIC\Desarrollo de Sofware\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.dll
 C:\Users\DarkSide\Google Drive\MisionTIC\Desarrollo de Sofware\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.pdb
+C:\Users\DarkSide\Google Drive\MisionTIC\Desarrollo de Sofware\ProyectoCiclo3.App\ProyectoCiclo3.App.Dominio\obj\Debug\netstandard2.0\ProyectoCiclo3.App.Dominio.csprojAssemblyReference.cache
