@@ -5,19 +5,20 @@
  
 <h1>Listado de Estaciones</h1>
 <table class="table">
-    @foreach (var estaciones in Model.Estaciones)
+    @foreach (var estacion in Model.Estaciones)
     {
         <tr>
-            <td>@estaciones.id</td>
-            <td>@estaciones.nombre</td>
-            <td>@estaciones.direccion</td>
-            <td>@estaciones.coord_x</td>
-            <td>@estaciones.coord_y</td>
-            <td>@estaciones.Tipo</td>
+            <td>@estacion.id</td>
+            <td>@estacion.nombre</td>
+            <td>@estacion.direccion</td>
+            <td>@estacion.coord_x</td>
+            <td>@estacion.coord_y</td>
+            <td>@estacion.Tipo</td>
             <td>
 
-              <a class="btn btn-info" asp-page="./Details" asp-route-busId="@estaciones.id"><i class="fas fa-adjust"></i>Ver</a>
-              <a class="btn btn-info" href="">Editar</a>
+              <a class="btn btn-info" asp-page="./Details" asp-route-estacionId="@estacion.id"><i class="fas fa-adjust"></i>Ver</a>
+              <!--<a class="btn btn-info" href="">Editar</a>-->
+              <a class="btn btn-info" asp-page="./Edit" asp-route-estacionId="@estacion.id">Editar</a>
               <a class="btn btn-danger" href="">Eliminar</a>
               </td>
         </tr>

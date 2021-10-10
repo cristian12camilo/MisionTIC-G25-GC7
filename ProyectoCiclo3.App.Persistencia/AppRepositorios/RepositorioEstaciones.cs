@@ -26,7 +26,7 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
             return estaciones;  // realizamos un metodo llamado toda la lista.
         }
  
-        public Estaciones GetBusWithId(int id){
+        public Estaciones GetEstacionesWithId(int id){    
             return estaciones.SingleOrDefault(b => b.id == id);
         }
 

@@ -69,6 +69,8 @@ C:\Users\DarkSide\Google Drive\MisionTIC\Desarrollo de Sofware\ProyectoCiclo3.Ap
 C:\Users\DarkSide\Google Drive\MisionTIC\Desarrollo de Sofware\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Buses\List.cshtml.g.cs
 C:\Users\DarkSide\Google Drive\MisionTIC\Desarrollo de Sofware\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
 C:\Users\DarkSide\Google Drive\MisionTIC\Desarrollo de Sofware\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Estaciones\Create.cshtml.g.cs
+C:\Users\DarkSide\Google Drive\MisionTIC\Desarrollo de Sofware\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Estaciones\Details.cshtml.g.cs
+C:\Users\DarkSide\Google Drive\MisionTIC\Desarrollo de Sofware\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Estaciones\Edit.cshtml.g.cs
 C:\Users\DarkSide\Google Drive\MisionTIC\Desarrollo de Sofware\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Estaciones\List.cshtml.g.cs
 C:\Users\DarkSide\Google Drive\MisionTIC\Desarrollo de Sofware\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
 C:\Users\DarkSide\Google Drive\MisionTIC\Desarrollo de Sofware\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
