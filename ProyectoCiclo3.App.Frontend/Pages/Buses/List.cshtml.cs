@@ -15,17 +15,34 @@ namespace ProyectoCiclo3.App.Frontend.Pages
     {
        
         private readonly RepositorioBuses repositorioBuses;
+
+        [BindProperty] //Adicionamos la siguiente línea para crear el botón Eliminar
+        public Buses Bus {get;set;}
+
         public IEnumerable<Buses> Buses {get;set;}
  
-    public ListBusModel(RepositorioBuses repositorioBuses)
-    {
-        this.repositorioBuses=repositorioBuses;
-     }
- 
-    public void OnGet()
-    {
-        Buses=repositorioBuses.GetAll();
-    }
+        public ListBusModel(RepositorioBuses repositorioBuses)
+        {
+            this.repositorioBuses=repositorioBuses;
+        }
+    
+        public void OnGet()
+        {
+            Buses=repositorioBuses.GetAll();
+        }
+
+    // A continuación creamos un metodo que se llama Onpost ya que se creo un formulario Post para el boton eliminar
+        public IActionResult OnPost()
+        {
+            if(Bus.id>0)
+            {
+            Bus = repositorioBuses.Delete(Bus.id);
+            }
+            return RedirectToPage("./List");
+        }
+
+
+
     }
 }
 
